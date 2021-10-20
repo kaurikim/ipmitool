@@ -43,6 +43,7 @@ func (cl *Client) getBaseParam() []string {
 	params := []string{
 		"-H",
 		cl.addr,
+        "-I lanplus",
 	}
 
 	if cl.user != "" {
